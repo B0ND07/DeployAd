@@ -6,7 +6,7 @@ const Footer = () => {
    
     <div className='h-auto bg-gray-700'>
     <div className='flex md:flex-row flex-col md:gap-5 '>
-        <div className='mx-48 my-10'>
+        <div className='md:mx-48 mx-28 my-10'>
             <img className='' src={Logo10} width={150} height={200}  alt="" />
         </div>
         <div className='flex my-10 justify-center md:mx-10 gap-10 md:gap-48'>
