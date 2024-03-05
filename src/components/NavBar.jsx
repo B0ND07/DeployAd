@@ -98,7 +98,7 @@ export default function NavBar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img className="h-8 w-auto" src={Logo} alt="" />
             </a>
@@ -127,19 +127,19 @@ export default function NavBar() {
                   About Us
                 </a>
                 <a
-                  href="course"
+                  href="/course"
                   className="-mx-3 block hover:text-green-600 rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-gray-50"
                 >
                   Our Courses
                 </a>
                 <a
-                  href="gallery"
+                  href="/gallery"
                   className="-mx-3 block hover:text-green-600 rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-gray-50"
                 >
                   Gallery
                 </a>
                 <a
-                  href="blog"
+                  href="/blog"
                   className="-mx-3 block hover:text-green-600 rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-gray-50"
                 >
                   Blog
